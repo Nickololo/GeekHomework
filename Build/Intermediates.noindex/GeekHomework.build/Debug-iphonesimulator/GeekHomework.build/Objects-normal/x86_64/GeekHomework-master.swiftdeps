@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "5c2c5c12a0b5c5f173473f79fbdcd223"
+build_time: [1568525194, 593077000]
+inputs:
+  "/Users/nick/job/Xcode/Project's/GeekHomework/GeekHomework/ViewController.swift": [1568525191, 594000140]
+  "/Users/nick/job/Xcode/Project's/GeekHomework/GeekHomework/AppDelegate.swift": [1568525191, 592167946]
