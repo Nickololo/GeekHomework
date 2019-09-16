@@ -29,12 +29,13 @@ extension PersonGroupsViewController {
         return 80
     }
     
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        guard let detailViewController = segue.destination as? FriendPhotoViewController,
-//            let index = tableView.indexPathForSelectedRow?.row
-//            else {
-//                return
-//        }
-//        detailViewController.friend = groups[index]
-//    }
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+
+        if editingStyle == .delete {
+            myGroups.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+        }
+    }
+
+    
 }

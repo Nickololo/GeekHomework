@@ -30,7 +30,11 @@ extension AllGroupViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
- 
+        allGroups.remove(at: indexPath.row)
+        print("All Group - \(allGroups)")
+        tableView.reloadData()
+        
+        
     }
     
 }

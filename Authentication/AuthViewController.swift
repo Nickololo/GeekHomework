@@ -11,7 +11,6 @@ import UIKit
 class AuthViewController: UIViewController {
 
 
-    
     override func loadView() {
         view = LoginAuthView()
     }
@@ -24,20 +23,14 @@ class AuthViewController: UIViewController {
         super.viewDidLoad()
 
     }
-
-
-  
     
-
-    
- 
-    
-    func usersDataIsRight() -> Bool {
-        guard let login = rootView?.loginField.text else { return false }
-        guard let password = rootView?.passField.text else { return false }
+    func prepareFor() {
         
-        return login == "login" && password == "pass"
-        
+        if rootView?.loginField.text == "Log" && rootView?.passField.text == "pass" {
+            self.performSegue(withIdentifier: "TabBarController", sender: self)
+        } else {
+            showEnterError()
+        }
     }
     
     func showEnterError() {
@@ -46,15 +39,6 @@ class AuthViewController: UIViewController {
         alert.addAction(action)
         
         present(alert, animated: true)
-    }
-    
-    func prepareFor() {
-        
-        if rootView?.loginField.text == "log" && rootView?.passField.text == "pass" {
-            self.performSegue(withIdentifier: "TabBarController", sender: self)
-        } else {
-            showEnterError()
-        }
     }
 }
 
