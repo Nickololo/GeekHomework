@@ -9,7 +9,9 @@
 import UIKit
 
 class AllGroupViewController: UITableViewController {
-
+    
+    var groupItem: Group?
+    
     var allGroups: [Group] = [
         Group(name: "Chess", photo: #imageLiteral(resourceName: "Chess")),
         Group(name: "Running", photo: #imageLiteral(resourceName: "Running")),
@@ -17,9 +19,14 @@ class AllGroupViewController: UITableViewController {
         Group(name: "Bicycles", photo: #imageLiteral(resourceName: "Bicycles"))
     ]
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.tableFooterView = UIView()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        tableView.reloadData()
     }
 
 }
