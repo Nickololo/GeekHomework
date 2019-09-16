@@ -26,7 +26,7 @@ class AuthViewController: UIViewController {
     
     func prepareFor() {
         
-        if rootView?.loginField.text == "Log" && rootView?.passField.text == "pass" {
+        if rootView?.loginField.text == "" && rootView?.passField.text == "" {
             self.performSegue(withIdentifier: "TabBarController", sender: self)
         } else {
             showEnterError()

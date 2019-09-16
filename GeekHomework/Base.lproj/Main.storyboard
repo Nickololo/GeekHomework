@@ -147,7 +147,7 @@
             </objects>
             <point key="canvasLocation" x="2921.739130434783" y="-174.10714285714286"/>
         </scene>
-        <!--photo-->
+        <!--Friend Photo View Controller-->
         <scene sceneID="uW2-N0-h8K">
             <objects>
                 <viewController id="mar-7e-4fO" customClass="FriendPhotoViewController" customModule="GeekHomework" customModuleProvider="target" sceneMemberID="viewController">
@@ -157,7 +157,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Zwd-bj-18I"/>
                     </view>
-                    <navigationItem key="navigationItem" title="photo" id="jFU-RD-ZPs"/>
+                    <navigationItem key="navigationItem" id="jFU-RD-ZPs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9xf-UL-BRY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -261,14 +261,14 @@ SWIFT_CLASS("_TtC12GeekHomework19FriendPhotoViewCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIStoryboardSegue;
+@class UIScrollView;
 
 SWIFT_CLASS("_TtC12GeekHomework25FriendPhotoViewController")
 @interface FriendPhotoViewController : UIViewController
 - (void)loadView;
 - (void)viewDidLoad;
-- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
-- (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillLayoutSubviews;
+- (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -302,6 +302,7 @@ SWIFT_CLASS("_TtC12GeekHomework21FriendsViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIStoryboardSegue;
 
 @interface FriendsViewController (SWIFT_EXTENSION(GeekHomework))
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
@@ -345,6 +346,8 @@ SWIFT_CLASS("_TtC12GeekHomework26PersonGroupsViewController")
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (void)tableView:(UITableView * _Nonnull)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
+
+
 
 
 

@@ -30,7 +30,6 @@ extension FriendPhotoViewController: UICollectionViewDataSource, UICollectionVie
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
     
        headerView = (collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "FriendPhotoHeaderView", for: indexPath) as? FriendPhotoHeaderView)!
-        headerView.photoFriend.image = friend?.photo
         headerView.nameFriend.text = friend?.name
         
         return headerView
@@ -40,7 +39,7 @@ extension FriendPhotoViewController: UICollectionViewDataSource, UICollectionVie
 
         headerView.layoutIfNeeded()
         // Automagically get the right height
-        let height = headerView.photoFriend.systemLayoutSizeFitting(UIView.layoutFittingExpandedSize).height + headerView.nameFriend.systemLayoutSizeFitting(UIView.layoutFittingExpandedSize).height
+        let height = headerView.nameFriend.systemLayoutSizeFitting(UIView.layoutFittingExpandedSize).height
         
         return CGSize(width: collectionView.frame.width, height: height)
     }

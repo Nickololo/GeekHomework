@@ -10,20 +10,11 @@ import UIKit
 
 class FriendPhotoHeaderView: UICollectionReusableView {
     
-    lazy var photoFriend: UIImageView = {
-        let photo = UIImageView()
-            photo.layer.cornerRadius = 25
-            photo.backgroundColor = .lightGray
-            photo.clipsToBounds = true
-        
-        return photo
-    }()
-    
     lazy var nameFriend: UILabel = {
         let label = UILabel()
             label.text = "name"
             label.textColor = .black
-        
+            label.textAlignment = .center
         return label
     }()
     
@@ -38,19 +29,12 @@ class FriendPhotoHeaderView: UICollectionReusableView {
     }
     
     func setupView() {
-        addSubview(photoFriend)
         addSubview(nameFriend)
         
-        photoFriend.translatesAutoresizingMaskIntoConstraints = false
-        photoFriend.topAnchor.constraint(equalTo: topAnchor, constant: 10).isActive = true
-        photoFriend.leftAnchor.constraint(equalTo: leftAnchor, constant: 10).isActive = true
-        photoFriend.widthAnchor.constraint(equalToConstant: 50).isActive = true
-        photoFriend.heightAnchor.constraint(equalToConstant: 50).isActive = true
-        
         nameFriend.translatesAutoresizingMaskIntoConstraints = false
-        nameFriend.topAnchor.constraint(equalTo: topAnchor, constant: 10).isActive = true
-        nameFriend.leftAnchor.constraint(equalTo: photoFriend.rightAnchor, constant: 20).isActive = true
-        nameFriend.widthAnchor.constraint(equalToConstant: 200).isActive = true
+        nameFriend.topAnchor.constraint(equalTo: topAnchor).isActive = true
+        nameFriend.leftAnchor.constraint(equalTo: leftAnchor).isActive = true
+        nameFriend.widthAnchor.constraint(equalTo: widthAnchor).isActive = true
         nameFriend.heightAnchor.constraint(equalToConstant: 50).isActive = true
     }
     
