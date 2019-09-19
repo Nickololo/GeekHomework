@@ -324,6 +324,7 @@ SWIFT_CLASS("_TtC12GeekHomework21FriendsViewController")
 SWIFT_CLASS("_TtC12GeekHomework9LoginView")
 @interface LoginView : UIView
 - (void)buttonAction;
+- (void)registerAction;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -369,6 +370,7 @@ SWIFT_CLASS("_TtC12GeekHomework26PersonGroupsViewController")
 SWIFT_CLASS("_TtC12GeekHomework12RegisterView")
 @interface RegisterView : UIView
 - (void)buttonAction;
+- (void)logAction;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

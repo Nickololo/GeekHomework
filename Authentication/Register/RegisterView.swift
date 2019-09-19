@@ -101,11 +101,11 @@ class RegisterView: UIView {
         return field
     }()
     
-    lazy var loginButton: UIButton = {
+    lazy var registButton: UIButton = {
         let button = UIButton()
             button.backgroundColor = .white
             button.setTitleColor(.black, for: .normal)
-            button.setTitle("log in", for: .normal)
+            button.setTitle("Registration", for: .normal)
             button.layer.cornerRadius = 0
             button.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
             button.translatesAutoresizingMaskIntoConstraints = false
@@ -118,6 +118,26 @@ class RegisterView: UIView {
         parentVC?.prepareFor()
         
     }
+    
+    lazy var loginButton: UIButton = {
+        let button = UIButton()
+        button.backgroundColor = .white
+        button.setTitleColor(.black, for: .normal)
+        button.setTitle("log in", for: .normal)
+        button.layer.cornerRadius = 20
+        button.addTarget(self, action: #selector(logAction), for: .touchUpInside)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        
+        return button
+    }()
+    
+    @objc func logAction() {
+        let parentVC = self.parentController(of: RegisterViewController.self)
+        parentVC?.logPush()
+        
+    }
+    
+    
     
     override init(frame: CGRect = .zero) {
         super.init(frame: frame)
@@ -172,6 +192,7 @@ class RegisterView: UIView {
         containerAuth.addSubview(passField)
         containerAuth.addSubview(borderLogView)
         containerAuth.addSubview(borderNameView)
+        containerView.addSubview(registButton)
         containerView.addSubview(loginButton)
     }
     
@@ -199,9 +220,15 @@ class RegisterView: UIView {
         borderLogView.widthAnchor.constraint(equalTo: containerAuth.widthAnchor).isActive = true
         borderLogView.heightAnchor.constraint(equalToConstant: 0.5).isActive = true
         
-        loginButton.topAnchor.constraint(equalTo: containerAuth.bottomAnchor, constant: 20).isActive = true
+        registButton.topAnchor.constraint(equalTo: containerAuth.bottomAnchor, constant: 20).isActive = true
+        registButton.centerXAnchor.constraint(equalTo: containerView.centerXAnchor).isActive = true
+        registButton.widthAnchor.constraint(equalToConstant: 200).isActive = true
+        registButton.heightAnchor.constraint(equalToConstant: 40).isActive = true
+        
+        loginButton.bottomAnchor.constraint(equalTo: containerView.bottomAnchor).isActive = true
         loginButton.centerXAnchor.constraint(equalTo: containerView.centerXAnchor).isActive = true
-        loginButton.widthAnchor.constraint(equalToConstant: 200).isActive = true
-        loginButton.heightAnchor.constraint(equalToConstant: 40).isActive = true
+        loginButton.widthAnchor.constraint(equalTo: containerView.widthAnchor, constant: 100).isActive = true
+        loginButton.heightAnchor.constraint(equalToConstant: 60).isActive = true
+        
     }
 }

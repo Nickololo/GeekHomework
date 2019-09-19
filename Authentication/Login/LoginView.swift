@@ -106,7 +106,24 @@ class LoginView: UIView {
     
     @objc func buttonAction() {
         let parentVC = self.parentController(of: LoginViewController.self)
+            parentVC?.loginPush()
+    }
+    
+    lazy var registerButton: UIButton = {
+        let button = UIButton()
+        button.backgroundColor = .white
+        button.setTitleColor(.black, for: .normal)
+        button.setTitle("registration", for: .normal)
+        button.layer.cornerRadius = 20
+        button.addTarget(self, action: #selector(registerAction), for: .touchUpInside)
+        button.translatesAutoresizingMaskIntoConstraints = false
         
+        return button
+    }()
+    
+    @objc func registerAction() {
+        let parentVC = self.parentController(of: LoginViewController.self)
+        parentVC?.registerPush()
         
     }
     
@@ -157,6 +174,7 @@ class LoginView: UIView {
         containerAuth.addSubview(passField)
         containerAuth.addSubview(borderLogView)
         containerView.addSubview(loginButton)
+        containerView.addSubview(registerButton)
     }
     
     
@@ -183,6 +201,11 @@ class LoginView: UIView {
         loginButton.centerXAnchor.constraint(equalTo: containerView.centerXAnchor).isActive = true
         loginButton.widthAnchor.constraint(equalToConstant: 200).isActive = true
         loginButton.heightAnchor.constraint(equalToConstant: 40).isActive = true
+        
+        registerButton.bottomAnchor.constraint(equalTo: containerView.bottomAnchor).isActive = true
+        registerButton.centerXAnchor.constraint(equalTo: containerView.centerXAnchor).isActive = true
+        registerButton.widthAnchor.constraint(equalTo: containerView.widthAnchor, constant: 100).isActive = true
+        registerButton.heightAnchor.constraint(equalToConstant: 60).isActive = true
     }
 
 }

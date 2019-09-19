@@ -111,7 +111,6 @@ class ChoisLogView: UIView {
         containerView.addSubview(logoView)
         containerView.addSubview(loginButton)
         containerView.addSubview(registerButton)
-        
     }
     
 }

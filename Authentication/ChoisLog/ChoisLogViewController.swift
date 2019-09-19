@@ -26,9 +26,11 @@ class ChoisLogViewController: UIViewController {
     
     func logPush() {
         show(LoginViewController(), sender: self)
+        
     }
 
     func registerPush() {
-        show(RegisterViewController(), sender: self)
+//        show(RegisterViewController(), sender: self)
+        present(RegisterViewController(), animated: true, completion: nil)
     }
 }

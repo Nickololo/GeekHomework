@@ -29,7 +29,6 @@ class RegisterViewController: UIViewController {
     }
     
     func createUser() {
-        
         guard let email = rootView?.loginField.text,
             let password = rootView?.passField.text,
             let name = rootView?.nameField.text
@@ -56,6 +55,7 @@ class RegisterViewController: UIViewController {
                     return
                 }
                 print("Saved user successfully into FirebaseDatabase")
+                self.performSegue(withIdentifier: "RegisterViewController", sender: self)
             })
         }
     }
@@ -64,6 +64,7 @@ class RegisterViewController: UIViewController {
         
         if rootView?.loginField.text == "" && rootView?.passField.text == "" {
             self.performSegue(withIdentifier: "RegisterViewController", sender: self)
+            
         } else {
             showEnterError()
         }
@@ -76,5 +77,10 @@ class RegisterViewController: UIViewController {
         
         present(alert, animated: true)
     }
+    
+    func logPush() {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
 }
 
