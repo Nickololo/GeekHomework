@@ -36,6 +36,4 @@ extension PersonGroupsViewController {
             tableView.deleteRows(at: [indexPath], with: .fade)
         }
     }
-
-    
 }
