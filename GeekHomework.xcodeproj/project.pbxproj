@@ -37,11 +37,9 @@
 		0132448D232E030800745510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0132448C232E030800745510 /* Assets.xcassets */; };
 		01324490232E030800745510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0132448E232E030800745510 /* LaunchScreen.storyboard */; };
 		01324498232E08F800745510 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01324497232E08F800745510 /* RegisterView.swift */; };
-		014916642332BA4800DE21EA /* ChoisLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014916632332BA4800DE21EA /* ChoisLogViewController.swift */; };
 		014916662332BA5B00DE21EA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014916652332BA5B00DE21EA /* LoginViewController.swift */; };
 		014916682332BA7B00DE21EA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014916672332BA7B00DE21EA /* LoginView.swift */; };
 		0149166A2332BCED00DE21EA /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014916692332BCED00DE21EA /* UIColor.swift */; };
-		0149166C23336CE400DE21EA /* ChoisLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0149166B23336CE400DE21EA /* ChoisLogView.swift */; };
 		88A8F7C650A4CA9F52C2F22D /* Pods_GeekHomework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A57286E5BA94DB5291B56E /* Pods_GeekHomework.framework */; };
 /* End PBXBuildFile section */
 
@@ -76,11 +74,9 @@
 		0132448F232E030800745510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01324491232E030800745510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01324497232E08F800745510 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
-		014916632332BA4800DE21EA /* ChoisLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoisLogViewController.swift; sourceTree = "<group>"; };
 		014916652332BA5B00DE21EA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		014916672332BA7B00DE21EA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		014916692332BCED00DE21EA /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		0149166B23336CE400DE21EA /* ChoisLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoisLogView.swift; sourceTree = "<group>"; };
 		64A57286E5BA94DB5291B56E /* Pods_GeekHomework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeekHomework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B73A12733DC74070F073F5 /* Pods-GeekHomework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeekHomework.debug.xcconfig"; path = "Target Support Files/Pods-GeekHomework/Pods-GeekHomework.debug.xcconfig"; sourceTree = "<group>"; };
 		F41C788CAE854B1C1E20C7AE /* Pods-GeekHomework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeekHomework.release.xcconfig"; path = "Target Support Files/Pods-GeekHomework/Pods-GeekHomework.release.xcconfig"; sourceTree = "<group>"; };
@@ -203,7 +199,6 @@
 		01324499232E092100745510 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
-				0149166D23336E3300DE21EA /* ChoisLog */,
 				014916622332BA2000DE21EA /* Login */,
 				014916612332BA0400DE21EA /* Register */,
 			);
@@ -226,15 +221,6 @@
 				014916672332BA7B00DE21EA /* LoginView.swift */,
 			);
 			path = Login;
-			sourceTree = "<group>";
-		};
-		0149166D23336E3300DE21EA /* ChoisLog */ = {
-			isa = PBXGroup;
-			children = (
-				014916632332BA4800DE21EA /* ChoisLogViewController.swift */,
-				0149166B23336CE400DE21EA /* ChoisLogView.swift */,
-			);
-			path = ChoisLog;
 			sourceTree = "<group>";
 		};
 		8DEFD348880672583C7EEA1E /* Pods */ = {
@@ -372,7 +358,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0149166C23336CE400DE21EA /* ChoisLogView.swift in Sources */,
 				01324498232E08F800745510 /* RegisterView.swift in Sources */,
 				012B80EF232E7A5C00E29F4E /* FriendPhotoViewController.swift in Sources */,
 				012B8109232FC70B00E29F4E /* Group.swift in Sources */,
@@ -398,7 +383,6 @@
 				0149166A2332BCED00DE21EA /* UIColor.swift in Sources */,
 				01324483232E030700745510 /* AppDelegate.swift in Sources */,
 				012B8107232FC6D200E29F4E /* UIStoryboardSegue.swift in Sources */,
-				014916642332BA4800DE21EA /* ChoisLogViewController.swift in Sources */,
 				012B80C5232E57F700E29F4E /* FriendsViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
