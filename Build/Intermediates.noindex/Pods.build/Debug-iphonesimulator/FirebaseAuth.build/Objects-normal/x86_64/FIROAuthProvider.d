@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/nick/job/Xcode/GeekHomework/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProvider/OAuth/FIROAuthProvider.m \
+  /Users/nick/job/Xcode/GeekHomework/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/module.modulemap \
+  /Users/nick/job/Xcode/GeekHomework/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIROAuthProvider.h \
+  /Users/nick/job/Xcode/GeekHomework/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRFederatedAuthProvider.h \
+  /Users/nick/job/Xcode/GeekHomework/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthUIDelegate.h \
+  /Users/nick/job/Xcode/GeekHomework/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FirebaseCore.build/module.modulemap \
+  /Users/nick/job/Xcode/GeekHomework/Pods/FirebaseCore/Firebase/Core/Public/FIROptions.h \
+  /Users/nick/job/Xcode/GeekHomework/Pods/FirebaseCore/Firebase/Core/Public/FirebaseCore.h \
+  /Users/nick/job/Xcode/GeekHomework/Pods/FirebaseCore/Firebase/Core/Public/FIRLoggerLevel.h \
+  /Users/nick/job/Xcode/GeekHomework/Pods/FirebaseCore/Firebase/Core/Public/FIRConfiguration.h \
+  /Users/nick/job/Xcode/GeekHomework/Pods/FirebaseCore/Firebase/Core/Public/FIRApp.h \
+  /Users/nick/job/Xcode/GeekHomework/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/nick/job/Xcode/GeekHomework/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/FIRAuthBackend.h \
+  /Users/nick/job/Xcode/GeekHomework/Pods/FirebaseAuth/Firebase/Auth/Source/Auth/FIRAuth_Internal.h \
+  /Users/nick/job/Xcode/GeekHomework/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuth.h \
+  /Users/nick/job/Xcode/GeekHomework/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthErrors.h \
+  /Users/nick/job/Xcode/GeekHomework/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthAPNSTokenType.h \
+  /Users/nick/job/Xcode/GeekHomework/Pods/Headers/Public/FirebaseAuthInterop/FIRAuthInterop.h \
+  /Users/nick/job/Xcode/GeekHomework/Pods/FirebaseAuth/Firebase/Auth/Source/Utilities/FIRAuthErrorUtils.h \
+  /Users/nick/job/Xcode/GeekHomework/Pods/FirebaseAuth/Firebase/Auth/Source/Auth/FIRAuthGlobalWorkQueue.h \
+  /Users/nick/job/Xcode/GeekHomework/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/FIRAuthRequestConfiguration.h \
+  /Users/nick/job/Xcode/GeekHomework/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/FIRAuthRPCRequest.h \
+  /Users/nick/job/Xcode/GeekHomework/Pods/FirebaseAuth/Firebase/Auth/Source/Utilities/FIRAuthWebUtils.h \
+  /Users/nick/job/Xcode/GeekHomework/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRFacebookAuthProvider.h \
+  /Users/nick/job/Xcode/GeekHomework/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProvider/OAuth/FIROAuthCredential_Internal.h \
+  /Users/nick/job/Xcode/GeekHomework/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIROAuthCredential.h \
+  /Users/nick/job/Xcode/GeekHomework/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthCredential.h \
+  /Users/nick/job/Xcode/GeekHomework/Pods/FirebaseAuth/Firebase/Auth/Source/Utilities/FIRAuthURLPresenter.h

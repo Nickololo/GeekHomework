@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
 options: "bfd70332f37e774d7e77512c271ba5ac"
-build_time: [1568893215, 368954000]
+build_time: [1568893472, 820199000]
 inputs:
   "/Users/nick/job/Xcode/GeekHomework/Authentication/Register/RegisterView.swift": [1568889819, 242882038]
   "/Users/nick/job/Xcode/GeekHomework/FriendsPhoto/FriendPhotoViewController.swift": [1568673151, 91866444]
@@ -22,7 +22,7 @@ inputs:
   "/Users/nick/job/Xcode/GeekHomework/FriendsPhoto/FriendPhotoViewCell.swift": [1568638794, 656425582]
   "/Users/nick/job/Xcode/GeekHomework/Extension/UIResponder.swift": [1568640864, 206262880]
   "/Users/nick/job/Xcode/GeekHomework/GroupsList/AllGroupViewController.swift": [1568668118, 124287624]
-  "/Users/nick/job/Xcode/GeekHomework/GroupsList/AllGroupViewDelegateDataSource.swift": [1568668434, 314573129]
+  "/Users/nick/job/Xcode/GeekHomework/GroupsList/AllGroupViewDelegateDataSource.swift": [1568893471, 785440008]
   "/Users/nick/job/Xcode/GeekHomework/Extension/UIColor.swift": [1568834931, 993769093]
   "/Users/nick/job/Xcode/GeekHomework/GeekHomework/AppDelegate.swift": [1568713002, 661832452]
   "/Users/nick/job/Xcode/GeekHomework/Extension/UIStoryboardSegue.swift": [1568640868, 112888758]
