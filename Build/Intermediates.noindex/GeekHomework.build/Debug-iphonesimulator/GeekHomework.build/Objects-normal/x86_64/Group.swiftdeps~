@@ -8,6 +8,7 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "=="
+- !private "BooleanLiteralType"
 - "Equatable"
 - "Group"
 - "String"

@@ -19,8 +19,6 @@ depends-top-level:
 - !private "BooleanLiteralType"
 - "CastingPrecedence"
 - !private "FirebaseApp"
-- "FloatLiteralType"
-- "IntegerLiteralType"
 - "NSError"
 - "NSPersistentContainer"
 - "StringLiteralType"
