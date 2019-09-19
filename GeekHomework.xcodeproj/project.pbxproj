@@ -40,6 +40,8 @@
 		014916662332BA5B00DE21EA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014916652332BA5B00DE21EA /* LoginViewController.swift */; };
 		014916682332BA7B00DE21EA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014916672332BA7B00DE21EA /* LoginView.swift */; };
 		0149166A2332BCED00DE21EA /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014916692332BCED00DE21EA /* UIColor.swift */; };
+		0149166E2333EFDF00DE21EA /* Pods-GeekHomework.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F41C788CAE854B1C1E20C7AE /* Pods-GeekHomework.release.xcconfig */; };
+		0149166F2333EFE100DE21EA /* Pods-GeekHomework.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 74B73A12733DC74070F073F5 /* Pods-GeekHomework.debug.xcconfig */; };
 		88A8F7C650A4CA9F52C2F22D /* Pods_GeekHomework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A57286E5BA94DB5291B56E /* Pods_GeekHomework.framework */; };
 /* End PBXBuildFile section */
 
@@ -161,6 +163,7 @@
 		01324476232E030700745510 = {
 			isa = PBXGroup;
 			children = (
+				012B811A2330D9FB00E29F4E /* Podfile */,
 				012B8101232FC27600E29F4E /* Extension */,
 				012B80FC232FC16A00E29F4E /* GroupsList */,
 				012B80ED232E7A3F00E29F4E /* FriendsPhoto */,
@@ -191,7 +194,6 @@
 				01324491232E030800745510 /* Info.plist */,
 				01324489232E030700745510 /* GeekHomework.xcdatamodeld */,
 				012B81202330EBC300E29F4E /* GoogleService-Info.plist */,
-				012B811A2330D9FB00E29F4E /* Podfile */,
 			);
 			path = GeekHomework;
 			sourceTree = "<group>";
@@ -303,10 +305,12 @@
 				012B811C2330DC3200E29F4E /* (null) in Resources */,
 				012B811B2330D9FB00E29F4E /* Podfile in Resources */,
 				012B811D2330DC3500E29F4E /* (null) in Resources */,
+				0149166F2333EFE100DE21EA /* Pods-GeekHomework.debug.xcconfig in Resources */,
 				01324490232E030800745510 /* LaunchScreen.storyboard in Resources */,
 				0132448D232E030800745510 /* Assets.xcassets in Resources */,
 				01324488232E030700745510 /* Main.storyboard in Resources */,
 				012B81212330EBC300E29F4E /* GoogleService-Info.plist in Resources */,
+				0149166E2333EFDF00DE21EA /* Pods-GeekHomework.release.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

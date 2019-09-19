@@ -6,6 +6,10 @@ target 'GeekHomework' do
 use_frameworks!
 
 # Pods for Paraphrase
+
+pod 'Firebase/Database'
 pod 'Firebase/Auth'
+pod 'Firebase/Storage'
+pod 'Firebase/Core'
 
 end
