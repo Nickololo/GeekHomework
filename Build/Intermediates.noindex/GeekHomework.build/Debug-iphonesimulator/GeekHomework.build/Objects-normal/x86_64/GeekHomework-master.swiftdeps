@@ -1,8 +1,9 @@
 version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
-options: "aa6ab6953be8313830b1f8666b52f86f"
-build_time: [1568673267, 594193000]
+options: "bfd70332f37e774d7e77512c271ba5ac"
+build_time: [1568881633, 621461000]
 inputs:
-  "/Users/nick/job/Xcode/GeekHomework/Authentication/LoginAuthView.swift": [1568644276, 813285763]
+  "/Users/nick/job/Xcode/GeekHomework/Authentication/ChoisLog/ChoisLogView.swift": [1568881633, 502929630]
+  "/Users/nick/job/Xcode/GeekHomework/Authentication/Register/RegisterView.swift": [1568834626, 926017016]
   "/Users/nick/job/Xcode/GeekHomework/FriendsPhoto/FriendPhotoViewController.swift": [1568673151, 91866444]
   "/Users/nick/job/Xcode/GeekHomework/GroupsList/Group.swift": [1568669275, 998675597]
   "/Users/nick/job/Xcode/GeekHomework/FriendsList/Friends.swift": [1568545575, 514228962]
@@ -11,9 +12,11 @@ inputs:
   "/Users/nick/job/Xcode/GeekHomework/Extension/Array.swift": [1568671622, 878475579]
   "/Users/nick/job/Xcode/GeekHomework/FriendsPhoto/FriendPhotoHeaderView.swift": [1568673267, 537414780]
   "/Users/nick/job/Xcode/GeekHomework/FriendsPhoto/FriendPhotoViewDelegateDataSource.swift": [1568673177, 928424993]
-  "/Users/nick/job/Xcode/GeekHomework/Authentication/AuthViewController.swift": [1568671876, 447332500]
+  "/Users/nick/job/Xcode/GeekHomework/Authentication/Login/LoginView.swift": [1568835614, 717140269]
+  "/Users/nick/job/Xcode/GeekHomework/Authentication/Register/RegisterViewController.swift": [1568880291, 409390900]
   "/Users/nick/job/Xcode/GeekHomework/FriendsList/FriendsViewDelegateDataSource.swift": [1568643503, 17334751]
   "/Users/nick/job/Xcode/GeekHomework/GroupsList/PersonGroupViewCell.swift": [1568641483, 21773107]
+  "/Users/nick/job/Xcode/GeekHomework/Authentication/Login/LoginViewController.swift": [1568834546, 43823461]
   "/Users/nick/job/Xcode/GeekHomework/GroupsList/PersonGroupsViewDelegateDataSource.swift": [1568669488, 30787929]
   "/Users/nick/job/Xcode/GeekHomework/FriendsPhoto/FriendPhotoView.swift": [1568672717, 931189446]
   "/Users/nick/job/Xcode/GeekHomework/GroupsList/AllGroupViewCell.swift": [1568642397, 152589366]
@@ -21,6 +24,8 @@ inputs:
   "/Users/nick/job/Xcode/GeekHomework/Extension/UIResponder.swift": [1568640864, 206262880]
   "/Users/nick/job/Xcode/GeekHomework/GroupsList/AllGroupViewController.swift": [1568668118, 124287624]
   "/Users/nick/job/Xcode/GeekHomework/GroupsList/AllGroupViewDelegateDataSource.swift": [1568668434, 314573129]
-  "/Users/nick/job/Xcode/GeekHomework/GeekHomework/AppDelegate.swift": [1568555414, 571765716]
+  "/Users/nick/job/Xcode/GeekHomework/Extension/UIColor.swift": [1568834931, 993769093]
+  "/Users/nick/job/Xcode/GeekHomework/GeekHomework/AppDelegate.swift": [1568713002, 661832452]
   "/Users/nick/job/Xcode/GeekHomework/Extension/UIStoryboardSegue.swift": [1568640868, 112888758]
+  "/Users/nick/job/Xcode/GeekHomework/Authentication/ChoisLog/ChoisLogViewController.swift": [1568880600, 176065702]
   "/Users/nick/job/Xcode/GeekHomework/FriendsList/FriendsViewCell.swift": [1568641399, 842169008]

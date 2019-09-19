@@ -219,7 +219,7 @@ SWIFT_CLASS("_TtC12GeekHomework22AllGroupViewController")
 @class UIWindow;
 @class UIApplication;
 
-SWIFT_CLASS("_TtC12GeekHomework11AppDelegate")
+SWIFT_CLASS("_TtC12GeekHomework11AppDelegate") SWIFT_AVAILABILITY(ios,introduced=10.0) SWIFT_AVAILABILITY(ios,introduced=10.0)
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 @property (nonatomic, strong) UIWindow * _Nullable window;
 - (BOOL)application:(UIApplication * _Nonnull)application didFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions SWIFT_WARN_UNUSED_RESULT;
@@ -232,8 +232,17 @@ SWIFT_CLASS("_TtC12GeekHomework11AppDelegate")
 @end
 
 
-SWIFT_CLASS("_TtC12GeekHomework18AuthViewController")
-@interface AuthViewController : UIViewController
+SWIFT_CLASS("_TtC12GeekHomework12ChoisLogView")
+@interface ChoisLogView : UIView
+- (void)logAction;
+- (void)registerAction;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC12GeekHomework22ChoisLogViewController")
+@interface ChoisLogViewController : UIViewController
 - (void)loadView;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -312,10 +321,19 @@ SWIFT_CLASS("_TtC12GeekHomework21FriendsViewController")
 @end
 
 
-SWIFT_CLASS("_TtC12GeekHomework13LoginAuthView")
-@interface LoginAuthView : UIView
+SWIFT_CLASS("_TtC12GeekHomework9LoginView")
+@interface LoginView : UIView
 - (void)buttonAction;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC12GeekHomework19LoginViewController")
+@interface LoginViewController : UIViewController
+- (void)loadView;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -346,6 +364,25 @@ SWIFT_CLASS("_TtC12GeekHomework26PersonGroupsViewController")
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (void)tableView:(UITableView * _Nonnull)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
+
+
+SWIFT_CLASS("_TtC12GeekHomework12RegisterView")
+@interface RegisterView : UIView
+- (void)buttonAction;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC12GeekHomework22RegisterViewController")
+@interface RegisterViewController : UIViewController
+- (void)loadView;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 
 
