@@ -5,8 +5,6 @@ provides-nominal:
 - "12GeekHomework26PersonGroupsViewControllerC"
 provides-member:
 - ["12GeekHomework26PersonGroupsViewControllerC", ""]
-- ["Sa", ""]
-- ["Sa", "contains"]
 provides-dynamic-lookup:
 - "addCity"
 - "viewDidLoad"
@@ -14,16 +12,11 @@ provides-dynamic-lookup:
 depends-top-level:
 - !private "!"
 - !private "=="
-- !private ">"
 - !private "AllGroupViewController"
-- "Array"
 - "AssignmentPrecedence"
 - "Bool"
 - "CastingPrecedence"
-- "Equatable"
-- !private "FloatLiteralType"
 - "Group"
-- !private "IntegerLiteralType"
 - "PersonGroupsViewController"
 - "StringLiteralType"
 - "UIStoryboardSegue"
@@ -34,17 +27,11 @@ depends-member:
 - !private ["12GeekHomework22AllGroupViewControllerC", "allGroups"]
 - !private ["12GeekHomework22AllGroupViewControllerC", "deinit"]
 - !private ["12GeekHomework22AllGroupViewControllerC", "tableView"]
-- ["Sa", "Bool"]
-- ["Sa", "Equatable"]
 - !private ["Sa", "append"]
-- ["Sa", "contains"]
-- !private ["Sa", "count"]
-- !private ["Sa", "filter"]
+- !private ["Sa", "contains"]
 - !private ["Sa", "subscript"]
 - !private ["SK", "append"]
 - !private ["SK", "contains"]
-- !private ["SK", "count"]
-- !private ["SK", "filter"]
 - !private ["SK", "row"]
 - !private ["SK", "subscript"]
 - !private ["So15CALayerDelegateP", "indexPathForSelectedRow"]
@@ -57,8 +44,6 @@ depends-member:
 - !private ["s7CVarArgP", "allGroups"]
 - !private ["s7CVarArgP", "append"]
 - !private ["s7CVarArgP", "contains"]
-- !private ["s7CVarArgP", "count"]
-- !private ["s7CVarArgP", "filter"]
 - !private ["s7CVarArgP", "identifier"]
 - !private ["s7CVarArgP", "indexPathForSelectedRow"]
 - !private ["s7CVarArgP", "init"]
@@ -71,15 +56,11 @@ depends-member:
 - !private ["s7CVarArgP", "viewDidLoad"]
 - !private ["Sl", "append"]
 - !private ["Sl", "contains"]
-- !private ["Sl", "count"]
-- !private ["Sl", "filter"]
 - !private ["Sl", "row"]
 - !private ["Sl", "subscript"]
 - !private ["SL", "row"]
 - !private ["10Foundation15ContiguousBytesP", "append"]
 - !private ["10Foundation15ContiguousBytesP", "contains"]
-- !private ["10Foundation15ContiguousBytesP", "count"]
-- !private ["10Foundation15ContiguousBytesP", "filter"]
 - !private ["10Foundation15ContiguousBytesP", "subscript"]
 - ["s28CustomDebugStringConvertibleP", "Group"]
 - !private ["s28CustomDebugStringConvertibleP", "UIView"]
@@ -87,8 +68,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "allGroups"]
 - !private ["s28CustomDebugStringConvertibleP", "append"]
 - !private ["s28CustomDebugStringConvertibleP", "contains"]
-- !private ["s28CustomDebugStringConvertibleP", "count"]
-- !private ["s28CustomDebugStringConvertibleP", "filter"]
 - !private ["s28CustomDebugStringConvertibleP", "identifier"]
 - !private ["s28CustomDebugStringConvertibleP", "indexPathForSelectedRow"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
@@ -102,8 +81,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - !private ["s17CustomReflectableP", "append"]
 - !private ["s17CustomReflectableP", "contains"]
-- !private ["s17CustomReflectableP", "count"]
-- !private ["s17CustomReflectableP", "filter"]
 - !private ["s17CustomReflectableP", "indexPathForSelectedRow"]
 - !private ["s17CustomReflectableP", "reloadData"]
 - !private ["s17CustomReflectableP", "row"]
@@ -115,8 +92,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "allGroups"]
 - !private ["s23CustomStringConvertibleP", "append"]
 - !private ["s23CustomStringConvertibleP", "contains"]
-- !private ["s23CustomStringConvertibleP", "count"]
-- !private ["s23CustomStringConvertibleP", "filter"]
 - !private ["s23CustomStringConvertibleP", "identifier"]
 - !private ["s23CustomStringConvertibleP", "indexPathForSelectedRow"]
 - !private ["s23CustomStringConvertibleP", "init"]
@@ -130,13 +105,9 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - !private ["10Foundation12DataProtocolP", "append"]
 - !private ["10Foundation12DataProtocolP", "contains"]
-- !private ["10Foundation12DataProtocolP", "count"]
-- !private ["10Foundation12DataProtocolP", "filter"]
 - !private ["10Foundation12DataProtocolP", "subscript"]
 - !private ["Se", "append"]
 - !private ["Se", "contains"]
-- !private ["Se", "count"]
-- !private ["Se", "filter"]
 - !private ["Se", "indexPathForSelectedRow"]
 - !private ["Se", "reloadData"]
 - !private ["Se", "row"]
@@ -144,8 +115,6 @@ depends-member:
 - !private ["Se", "tableFooterView"]
 - !private ["SE", "append"]
 - !private ["SE", "contains"]
-- !private ["SE", "count"]
-- !private ["SE", "filter"]
 - !private ["SE", "indexPathForSelectedRow"]
 - !private ["SE", "reloadData"]
 - !private ["SE", "row"]
@@ -157,8 +126,6 @@ depends-member:
 - !private ["SQ", "allGroups"]
 - !private ["SQ", "append"]
 - !private ["SQ", "contains"]
-- !private ["SQ", "count"]
-- !private ["SQ", "filter"]
 - !private ["SQ", "identifier"]
 - !private ["SQ", "indexPathForSelectedRow"]
 - ["SQ", "init"]
@@ -172,8 +139,6 @@ depends-member:
 - !private ["SQ", "viewDidLoad"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
 - !private ["s25ExpressibleByArrayLiteralP", "contains"]
-- !private ["s25ExpressibleByArrayLiteralP", "count"]
-- !private ["s25ExpressibleByArrayLiteralP", "filter"]
 - !private ["s25ExpressibleByArrayLiteralP", "row"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s23ExpressibleByNilLiteralP", "indexPathForSelectedRow"]
@@ -187,8 +152,6 @@ depends-member:
 - !private ["SH", "allGroups"]
 - !private ["SH", "append"]
 - !private ["SH", "contains"]
-- !private ["SH", "count"]
-- !private ["SH", "filter"]
 - !private ["SH", "identifier"]
 - !private ["SH", "indexPathForSelectedRow"]
 - !private ["SH", "init"]
@@ -203,14 +166,10 @@ depends-member:
 - !private ["10Foundation9IndexPathV", "row"]
 - !private ["SM", "append"]
 - !private ["SM", "contains"]
-- !private ["SM", "count"]
-- !private ["SM", "filter"]
 - !private ["SM", "row"]
 - !private ["SM", "subscript"]
 - !private ["10Foundation19MutableDataProtocolP", "append"]
 - !private ["10Foundation19MutableDataProtocolP", "contains"]
-- !private ["10Foundation19MutableDataProtocolP", "count"]
-- !private ["10Foundation19MutableDataProtocolP", "filter"]
 - !private ["10Foundation19MutableDataProtocolP", "subscript"]
 - ["So8NSCodingP", "Group"]
 - !private ["So8NSCodingP", "UIView"]
@@ -278,20 +237,14 @@ depends-member:
 - ["12GeekHomework26PersonGroupsViewControllerC", "viewWillAppear"]
 - !private ["Sk", "append"]
 - !private ["Sk", "contains"]
-- !private ["Sk", "count"]
-- !private ["Sk", "filter"]
 - !private ["Sk", "row"]
 - !private ["Sk", "subscript"]
 - !private ["Sm", "append"]
 - !private ["Sm", "contains"]
-- !private ["Sm", "count"]
-- !private ["Sm", "filter"]
 - !private ["Sm", "subscript"]
 - !private ["10Foundation20ReferenceConvertibleP", "row"]
 - !private ["ST", "append"]
 - !private ["ST", "contains"]
-- !private ["ST", "count"]
-- !private ["ST", "filter"]
 - !private ["ST", "row"]
 - !private ["ST", "subscript"]
 - !private ["So29UIAccessibilityIdentificationP", "indexPathForSelectedRow"]
@@ -487,23 +440,15 @@ depends-member:
 - ["So16UIViewControllerC", "viewWillAppear"]
 - !private ["s14_ArrayProtocolP", "append"]
 - !private ["s14_ArrayProtocolP", "contains"]
-- !private ["s14_ArrayProtocolP", "count"]
-- !private ["s14_ArrayProtocolP", "filter"]
 - !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s24_DestructorSafeContainerP", "append"]
 - !private ["s24_DestructorSafeContainerP", "contains"]
-- !private ["s24_DestructorSafeContainerP", "count"]
-- !private ["s24_DestructorSafeContainerP", "filter"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s19_HasContiguousBytesP", "append"]
 - !private ["s19_HasContiguousBytesP", "contains"]
-- !private ["s19_HasContiguousBytesP", "count"]
-- !private ["s19_HasContiguousBytesP", "filter"]
 - !private ["s19_HasContiguousBytesP", "subscript"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
-- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
-- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "Group"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
@@ -520,8 +465,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - !private ["s21_ObjectiveCBridgeableP", "append"]
 - !private ["s21_ObjectiveCBridgeableP", "contains"]
-- !private ["s21_ObjectiveCBridgeableP", "count"]
-- !private ["s21_ObjectiveCBridgeableP", "filter"]
 - !private ["s21_ObjectiveCBridgeableP", "indexPathForSelectedRow"]
 - !private ["s21_ObjectiveCBridgeableP", "reloadData"]
 - !private ["s21_ObjectiveCBridgeableP", "row"]
@@ -533,7 +476,7 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "tableFooterView"]
 depends-nominal:
 - !private "12GeekHomework22AllGroupViewControllerC"
-- "Sa"
+- !private "Sa"
 - !private "SK"
 - !private "So15CALayerDelegateP"
 - "s7CVarArgP"
@@ -613,6 +556,88 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FirebaseFirestore-umbrella.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRSnapshotMetadata.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRCollectionReference.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRDocumentReference.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestoreSource.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRDocumentChange.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestore.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FirebaseFirestore.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/nick/job/Xcode/GeekHomework/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFieldValue.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRWriteBatch.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFieldPath.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRListenerRegistration.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRTransaction.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRTimestamp.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestoreSettings.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestoreErrors.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageListResult.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRGeoPoint.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRDocumentSnapshot.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRQuerySnapshot.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRQuery.h"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/nick/job/Xcode/GeekHomework/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Modules/module.modulemap"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/nick/job/Xcode/GeekHomework/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
@@ -626,4 +651,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "f83ec64832ad5c490e88ddbdc0ed5076"
+interface-hash: "e1ffe67ee89474e1129e244f22c62778"
